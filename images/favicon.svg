@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ee8fa"/>
+      <stop offset="1" stop-color="#36a3c9"/>
+    </linearGradient>
+  </defs>
+  <!-- diamond body -->
+  <polygon points="30,14 70,14 92,40 50,92 8,40"
+           fill="url(#g)" stroke="#1b6f8c" stroke-width="3"
+           stroke-linejoin="round"/>
+  <!-- facet lines -->
+  <g fill="none" stroke="#eafcff" stroke-width="2.5" stroke-linejoin="round" opacity="0.85">
+    <path d="M8,40 H92"/>
+    <path d="M30,14 L40,40 L50,92"/>
+    <path d="M70,14 L60,40 L50,92"/>
+    <path d="M40,40 L50,92 L60,40"/>
+  </g>
+</svg>
